@@ -1,0 +1,35 @@
+body{
+    background-image: url(../img/metro.jpg);
+    background-size:cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    padding: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    padding: 20px;
+    margin-left: 140px;
+    margin-right: 140px;
+    border-radius: 10px;
+
+}
+
+button{
+    border: none;
+    padding-top: 10px ;
+}

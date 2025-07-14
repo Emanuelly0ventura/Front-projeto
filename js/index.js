@@ -1,11 +1,13 @@
-// document.getElementById("count-el").innerText = 5
+// document.getElementById("count-el").innerText = increment()
 
-let lote1 = 5
+let count = 0
 
-let count = lote1
-
-console.log(count)
+let countEl = document.getElementById("count-el")
 
 
-
+function increment() {
+     count = count + 1
+     countEl.innerText = count
+     console.log(count)
+}
 
